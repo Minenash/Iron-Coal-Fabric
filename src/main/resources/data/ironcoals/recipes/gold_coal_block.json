@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "IronCoals",
+  "ingredients": [
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "ironcoals:gold_coal"
+    }
+  ],
+  "result": {
+    "item": "ironcoals:gold_coal_block"
+  }
+}

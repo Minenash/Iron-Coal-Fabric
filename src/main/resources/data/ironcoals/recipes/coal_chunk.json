@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "IronCoals",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "ironcoals:coal_chunk",
+    "count": 8
+  }
+}

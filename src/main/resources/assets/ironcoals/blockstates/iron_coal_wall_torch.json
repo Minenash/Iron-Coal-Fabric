@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ironcoals:block/iron_coal_wall_torch"
+    },
+    "facing=north": {
+      "model": "ironcoals:block/iron_coal_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ironcoals:block/iron_coal_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ironcoals:block/iron_coal_wall_torch",
+      "y": 180
+    }
+  }
+}

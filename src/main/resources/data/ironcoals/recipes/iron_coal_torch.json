@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "IronCoals",
+  "pattern": [
+    "a",
+    "x"
+  ],
+  "key": {
+    "a": {
+      "item": "ironcoals:iron_coal_chunk"
+    },
+    "x": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ironcoals:iron_coal_torch",
+    "count": 4
+  }
+}

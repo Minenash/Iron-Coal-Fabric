@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "IronCoals",
+  "ingredients": [
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    },
+    {
+      "item": "ironcoals:emerald_coal"
+    }
+  ],
+  "result": {
+    "item": "ironcoals:emerald_coal_block"
+  }
+}
