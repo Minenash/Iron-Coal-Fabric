@@ -7,14 +7,14 @@
   ],
   "key": {
     "a": {
-      "item": "ironcoals:aeon_coal_chunk"
+      "item": "ironcoals:aeon_coal"
     },
     "x": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "ironcoals:aeon_coal",
+    "item": "ironcoals:aeon_coal_torch",
     "count": 4
   }
 }
