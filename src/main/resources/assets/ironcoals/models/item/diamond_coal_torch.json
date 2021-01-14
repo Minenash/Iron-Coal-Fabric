@@ -1,3 +1,6 @@
 {
-  "parent": "ironcoals:block/diamond_coal_torch"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ironcoals:block/diamond_coal_torch"
+  }
 }
