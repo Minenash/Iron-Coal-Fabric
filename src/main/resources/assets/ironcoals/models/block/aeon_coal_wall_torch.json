@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch_wall",
+  "textures": {
+    "torch": "ironcoals:block/aeon_coal_torch"
+  }
+}

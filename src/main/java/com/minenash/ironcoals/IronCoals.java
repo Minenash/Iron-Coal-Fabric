@@ -76,7 +76,7 @@ public class IronCoals implements ModInitializer {
 
 	private static Item registerFuelItem(String name, Item item, float smeltAmount) {
 		System.out.println(smeltAmount + ": " + (smeltAmount % 1 == 0));
-		String amount = smeltAmount == (Integer.MAX_VALUE/200F)? "§cUnlimited" : "§c" + (smeltAmount % 1 == 0? (int)smeltAmount : smeltAmount);
+		String amount = smeltAmount == (Integer.MAX_VALUE/200F)? "§cUnlimited" : smeltAmount % 1 == 0? "§c" + (int)smeltAmount : "§c" + smeltAmount;
 		TranslatableText text = new TranslatableText("tooltip.burns", amount, smeltAmount == 1? "" : "§4s");
 		ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, list) -> {
 			if (itemStack.getItem() == item)

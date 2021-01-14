@@ -3,28 +3,28 @@
   "group": "IronCoals",
   "ingredients": [
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     },
     {
-      "item": "ironcoals:base_coal_chunk"
+      "item": "ironcoals:coal_chunk"
     }
   ],
   "result": {
