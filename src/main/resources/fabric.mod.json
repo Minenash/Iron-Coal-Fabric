@@ -3,15 +3,17 @@
   "id": "ironcoals",
   "version": "${version}",
 
-  "name": "Iron Coals (Fabric)",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Iron Coals",
+  "description": "Adds 5 tiers of coal, coal chunks, coal blocks, and torches\nNew Tiers:\n - Iron Coal can smelt 12 items\n - Gold Coal can smelt 24 items\n - Diamond Coal can smelt 48 items\n - Emerald Coal can smelt 96 items\n - Aeon Coal can smelt unlimited items\nCoal chunks smelt 1/8th of their respective coals",
+
   "authors": [
     "Flamebom (Original)",
     "Minenash (Porter)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/iron-coals",
+    "issues": "https://github.com/Minenash/Iron-Coal-Fabric/issues",
+    "sources": "https://github.com/Minenash/Iron-Coal-Fabric"
   },
 
   "license": "MIT",
@@ -19,16 +21,12 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.minenash.ironcoals.IronCoals"
-    ]
+    "main": [ "com.minenash.ironcoals.IronCoals" ],
+    "client": [ "com.minenash.ironcoals.ClientEntrypoint" ]
   },
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
